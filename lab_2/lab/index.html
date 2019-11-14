@@ -1,0 +1,49 @@
+﻿<html>
+<head> <title> ++자.바.스.크.립.트 ++</title></head>
+<body><center>
+<table border="0" cellpadding="3"bgcolor=#000000 width=300>
+	<tr height=300>
+		<td align="center">
+			<!----맨처음 보여줄 이미지 설정---->
+			<img src="0.jpg" name="gallery">
+			</td>
+		</tr>
+		<tr>
+			<td align="center">
+				<form name ="menu">
+			
+				<script language="JavaScript"> 
+				var which = 0;
+				function backward()
+				{
+					x = document.getElementsByName("gallery");
+					if(which==0)
+					{
+						which = 10;
+					
+					}
+					which--;
+					x[0].src = which+".jpg";
+				}
+				function forward()
+				{
+					x = document.getElementsByName("gallery")[0];
+					if(which==9)
+					{
+						which = -1;
+
+					}
+					which++;
+					x.src = which+".jpg";
+				}
+				</script>
+			
+			<input type="button" value="<<뒤로" onClick="backward()">
+				<input type="button" value="처음" onClick="which=1;backward()">
+				<input type="button" value="앞으로>>" onClick="forward()">
+			</form>
+		</td>
+	</tr>
+	</center>
+	</body>
+	</html>

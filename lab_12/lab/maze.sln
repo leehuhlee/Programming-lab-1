@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "maze", "maze.vcxproj", "{2931D470-B7F4-4FE2-BAB9-D4C1C84AF2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2931D470-B7F4-4FE2-BAB9-D4C1C84AF2BD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2931D470-B7F4-4FE2-BAB9-D4C1C84AF2BD}.Debug|Win32.Build.0 = Debug|Win32
+		{2931D470-B7F4-4FE2-BAB9-D4C1C84AF2BD}.Release|Win32.ActiveCfg = Release|Win32
+		{2931D470-B7F4-4FE2-BAB9-D4C1C84AF2BD}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
